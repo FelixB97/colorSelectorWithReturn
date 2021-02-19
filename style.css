@@ -1,0 +1,76 @@
+/*   General Styling   */
+
+body {
+  display: flex;
+  background-color: rgb(85, 85, 85);
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/*    Drop down menu Styling    */
+
+#dropDownMenuDiv {
+  width: 300px;
+  height: 800px;
+  padding-left: 50px;
+}
+
+/*    colorInputAndDisplay Styling    */
+
+#colorPicker {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+}
+
+#colorOutput {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: -20px;
+}
+
+#infoContainer div {
+  display: flex;
+  flex-direction: row;
+}
+
+#infoContainer div p:first-child {
+  padding-right: 50px;
+}
+
+/*    chosen colors styling    */
+
+#chosenColors {
+  margin-top: -3px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+#chosenColors div {
+  background-color: tomato;
+  height: 80px;
+  width: 150px;
+  margin-top: 0px;
+}
+
+#chosenColors div p {
+  padding-left: 110%;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+#chosenColors div p:first-child {
+  padding-top: 3px;
+}

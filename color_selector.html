@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="dropDownMenuDiv">
+        <h3>Select a color harmonie:</h3>
+        <select id="colorDropDown" name="colorMenu">
+            <option value="analogous">Analogous</option>
+            <option value="monochromatic">Monochromatic</option>
+            <option value="triad">Triad</option>
+            <option value="complementary">Complementary</option>
+            <option value="compound">Compound</option>
+            <option value="shades">Shades</option>
+            <option value="nothing">Nothing</option>
+          </select>
+    </div>
+    
+    <div id="colorInputAndDisplay">
+        <div id="colorPicker">
+            <h3> Select color: </h3>
+            <input id="colorSelector" type="color">
+        </div>
+        <div id="colorOutput"></div>
+        <div id="infoContainer">
+            <div id="hex">
+                <p>HEX:</p>
+                <p id="hexValue"></p>
+            </div>
+            <div id="rgb">
+                <p>RGB:</p>
+                <p id="rgbValue"></p>
+            </div>
+            <div id="hsl">
+                <p>HSL:</p>
+                <p id="hslValue"></p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="chosenColors">
+        
+        <div id="color_1">
+            <p class="hex"></p>
+            <p class="rgb"></p>
+            <p class="hsl"></p>
+        </div>
+        
+        <div id="color_2">
+            <p class="hex"></p>
+            <p class="rgb"></p>
+            <p class="hsl"></p>
+        </div>
+        
+        <div id="color_3">
+            <p class="hex"></p>
+            <p class="rgb"></p>
+            <p class="hsl"></p>
+        </div>
+       
+        <div id="color_4">
+            <p class="hex"></p>
+            <p class="rgb"></p>
+            <p class="hsl"></p>
+        </div>
+        
+        <div id="color_5">
+            <p class="hex"></p>
+            <p class="rgb"></p>
+            <p class="hsl"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
